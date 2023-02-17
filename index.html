@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Grocery List</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="groceryList">
+              <h1 style="font-family: 'Red Hat Display', sans-serif; color: rgba(68, 67, 67, 0.786)">Grocery List</h1>
+                <br>
+                <input id="userInput" type="text"> <i onclick="addItem()" class="fa-solid fa-plus"></i>
+                <br>
+                <div id="items">
+                </div>
+            </div>
+            <button id="erease" onclick="ereaseAll()">Erease the list</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
